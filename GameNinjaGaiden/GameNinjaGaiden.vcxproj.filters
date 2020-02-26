@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{027ff122-76c0-422d-aa14-5da142951768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectX">
+      <UniqueIdentifier>{f5607274-c089-4ceb-af4b-7c884282ee02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{358d207b-ec01-4efb-86fe-dd53432c8544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{3dfb7dfb-3c0e-4b1f-bb82-ea524bc0dee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{03a0af2a-cd92-4d2b-a3d8-46d5b355d328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprite">
+      <UniqueIdentifier>{262bd2a5-8d2a-4df5-bbdd-290311afa4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tiny">
+      <UniqueIdentifier>{9b40bb69-9e70-4710-aea1-efb2a18f4376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{472d201c-cfbc-4141-9d79-8b53039e050f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Time">
+      <UniqueIdentifier>{ff8e7148-e54a-4093-a905-e1d063d5a376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{463450f0-f7c4-4ddf-bcde-80128916ddaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{60b5eaa1-172e-426b-bf57-f5c9a31e0a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{a3045ce2-21a2-4fcb-9b8d-dc8852a8bef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Characters">
+      <UniqueIdentifier>{d170fa68-17c5-4dbb-a59e-4d081bf3753d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Enemies">
+      <UniqueIdentifier>{0f0de797-2dcf-4f6b-b813-b7a74559d313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Boss">
+      <UniqueIdentifier>{1e51d5f4-654d-4f13-99ad-f262d7cf2c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObject">
+      <UniqueIdentifier>{308037ff-6b7c-444d-82c2-812d3a13ab52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Items">
+      <UniqueIdentifier>{1358696f-df78-4cad-bf3f-96aaf75e5df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\MapObject">
+      <UniqueIdentifier>{c725bf7d-69bc-4e1a-8c6e-53f2256f13a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Bullets">
+      <UniqueIdentifier>{7d6c99b6-5fbc-45d5-b8fb-7ff8e5f279b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GridMap">
+      <UniqueIdentifier>{724deaa1-e85c-4afc-9b02-c9393df067e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Other">
+      <UniqueIdentifier>{90d8c456-da81-46e3-b824-564c1490dd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Weapons">
+      <UniqueIdentifier>{dfd04c5e-86f4-4db7-bd47-7f6d57458b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\XML">
+      <UniqueIdentifier>{aa1223ce-2507-491a-a620-5efb0d6536f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{4bff1a0e-64d3-4556-9e81-8e89aedeff5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{2e8cca5a-8b08-421e-bcf3-88c86b247293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State">
+      <UniqueIdentifier>{8af22478-d692-461d-9220-7993dc6b7337}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMain.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CDebug.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirectX.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiny\tinystr.cpp">
+      <Filter>Source Files\Tiny</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiny\tinyxml.cpp">
+      <Filter>Source Files\Tiny</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiny\tinyxmlerror.cpp">
+      <Filter>Source Files\Tiny</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiny\tinyxmlparser.cpp">
+      <Filter>Source Files\Tiny</Filter>
+    </ClCompile>
+    <ClCompile Include="CFunction.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprites.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextures.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimations.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CTime.cpp">
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CSampleKeyHandler.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollision.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectBirdBrown.cpp">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectBoss.cpp">
+      <Filter>Source Files\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObject.cpp">
+      <Filter>Source Files\GameObject\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectRyu.cpp">
+      <Filter>Source Files\GameObject\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectGround.cpp">
+      <Filter>Source Files\GameObject\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectBanshee.cpp">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectBatBrown.cpp">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectSwordMan.cpp">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridMap.cpp">
+      <Filter>Source Files\GridMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectCat.cpp">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectMachineGunGuy.cpp">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjects.cpp">
+      <Filter>Source Files\GameObject\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonusBlue.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonusRed.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CFireWheel.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CRestorePhysicalStrength.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpiritualStrengthBlue.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpiritualStrengthRed.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CThrowingStar.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeFreeze.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemContainer4.cpp">
+      <Filter>Source Files\GameObject\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectWater.cpp">
+      <Filter>Source Files\GameObject\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectWall.cpp">
+      <Filter>Source Files\GameObject\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CDartsRed.cpp">
+      <Filter>Source Files\GameObject\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="CSword.cpp">
+      <Filter>Source Files\GameObject\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="CKnifeBanshee.cpp">
+      <Filter>Source Files\GameObject\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletMachineGunGuy.cpp">
+      <Filter>Source Files\GameObject\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="CDartsSmall.cpp">
+      <Filter>Source Files\GameObject\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletBoss.cpp">
+      <Filter>Source Files\GameObject\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="CFire.cpp">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CFireBullet.cpp">
+      <Filter>Source Files\GameObject\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="dsutil.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameSound.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CStates.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateIntro.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateMenu.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateFirst.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateEnd.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameBase.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameNinjaGaiden.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateThird.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CWindow.h">
+      <Filter>Source Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CConstant.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebug.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectX.h">
+      <Filter>Source Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiny\tinystr.h">
+      <Filter>Source Files\Tiny</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiny\tinyxml.h">
+      <Filter>Source Files\Tiny</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprites.h">
+      <Filter>Source Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextures.h">
+      <Filter>Source Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimations.h">
+      <Filter>Source Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CTime.h">
+      <Filter>Source Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyboardEventHandler.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CSampleKeyHandler.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollision.h">
+      <Filter>Source Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CStruct.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>Source Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateObject.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectBirdBrown.h">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectBoss.h">
+      <Filter>Source Files\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObject.h">
+      <Filter>Source Files\GameObject\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectRyu.h">
+      <Filter>Source Files\GameObject\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectGround.h">
+      <Filter>Source Files\GameObject\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectBanshee.h">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectBatBrown.h">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectSwordMan.h">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnumsOfGame.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridMap.h">
+      <Filter>Source Files\GridMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectCat.h">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpiritualStrengthBlue.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpiritualStrengthRed.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeFreeze.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CThrowingStar.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CFireWheel.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CRestorePhysicalStrength.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonusBlue.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemContainer4.h">
+      <Filter>Source Files\GameObject\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectMachineGunGuy.h">
+      <Filter>Source Files\GameObject\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjects.h">
+      <Filter>Source Files\GameObject\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonusRed.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectWater.h">
+      <Filter>Source Files\GameObject\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectWall.h">
+      <Filter>Source Files\GameObject\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CDartsRed.h">
+      <Filter>Source Files\GameObject\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CSword.h">
+      <Filter>Source Files\GameObject\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CKnifeBanshee.h">
+      <Filter>Source Files\GameObject\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletMachineGunGuy.h">
+      <Filter>Source Files\GameObject\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="CDartsSmall.h">
+      <Filter>Source Files\GameObject\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletBoss.h">
+      <Filter>Source Files\GameObject\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="CFire.h">
+      <Filter>Source Files\GameObject\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CFireBullet.h">
+      <Filter>Source Files\GameObject\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="dsutil.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameSound.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CStates.h">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateIntro.h">
+      <Filter>Source Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateMenu.h">
+      <Filter>Source Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateFirst.h">
+      <Filter>Source Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateEnd.h">
+      <Filter>Source Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameBase.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameNinjaGaiden.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateThird.h">
+      <Filter>Source Files\State</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="XML\animations.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\listobject.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\listobjecttest.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\map.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\sprites.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\sprites_backup.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\sprites_ryu_hayabusa.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\test.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\textures.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\listobjectthird.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+    <Xml Include="XML\sound.xml">
+      <Filter>Resource Files\XML</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

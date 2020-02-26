@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Textures>
+  <SubTexture id="0" path="textures\\sprites_ryu_hayabusa.png" red="255" green="163" blue="177"/>
+  <SubTexture id="10" path="textures\\enemies_and_bosses.png" red="255" green="163" blue="177"/>
+  <SubTexture id="100" path="textures\\font.png" red="0" green="0" blue="0"/>
+  <SubTexture id="110" path="textures\\blood.png" red="0" green="0" blue="0"/>
+  <SubTexture id="120" path="textures\\spiritual.png" red="0" green="0" blue="0"/>
+  <SubTexture id="200" path="textures\\cbox.png" red="0" green="0" blue="0"/>
+  <SubTexture id="310" path="map\\Map31.png" red="0" green="0" blue="0"/>
+  <SubTexture id="320" path="map\\Map32.png" red="0" green="0" blue="0"/>
+  <SubTexture id="330" path="map\\Map33.png" red="0" green="0" blue="0"/>
+</Textures>

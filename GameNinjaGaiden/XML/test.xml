@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Authors>
+    <Author id="01">
+        <Name>Name 01</Name>
+        <Age>10</Age>
+    </Author>
+    <Author id="02">
+        <Name>Name 02</Name>
+        <Age>20</Age>
+    </Author>
+</Authors>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <SubMap id="0" idTexture="310" text="map\\map31.txt"/>
+    <SubMap id="1" idTexture="330" text="map\\map33.txt"/>
+</Maps>
+

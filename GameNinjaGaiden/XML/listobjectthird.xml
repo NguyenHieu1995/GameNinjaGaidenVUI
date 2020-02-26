@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <SubObject id="1" type="8" x="0" y="0" d="1" w="1024" h="30"/>
+  <SubObject id="2" type="18" x="190" y="60" d="0" w="0" h="0"/>
+  <SubObject id="3" type="19" x="0" y="0" d="1" w="20" h="256"/>
+  <SubObject id="4" type="19" x="236" y="0" d="1" w="20" h="256"/>
+</Objects>

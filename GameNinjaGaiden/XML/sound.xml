@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <SubMap name="attack" path="sound\\01.wav"/>
+    <SubMap name="jump" path="sound\\02.wav"/>
+    <SubMap name="beingattack" path="sound\\04.wav"/>
+    <SubMap name="cutenemi" path="sound\\05.wav"/>
+    <SubMap name="getitem" path="sound\\06.wav"/>
+    <SubMap name="bossdie" path="sound\\20.wav"/>
+    <SubMap name="machigunguy" path="sound\\18.wav"/>
+    <SubMap name="test" path="sound\\02.wav"/>
+</Maps>
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <SubAnimation id="0" timeDefault="100">
+    <Sprite id="0" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1" timeDefault="100">
+    <Sprite id="1" time="0"/>
+    <Sprite id="8" time="0"/>
+    <Sprite id="9" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="2" timeDefault="500">
+    <Sprite id="2" time="0"/>
+    <Sprite id="10" time="0"/>
+    <Sprite id="11" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="3" timeDefault="100">
+    <Sprite id="3" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="4" timeDefault="100">
+    <Sprite id="3" time="0"/>
+    <Sprite id="4" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="5" timeDefault="100">
+    <Sprite id="5" time="0"/>
+    <Sprite id="6" time="0"/>
+    <Sprite id="7" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="6" timeDefault="100">
+    <Sprite id="16" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="7" timeDefault="100">
+    <Sprite id="16" time="0"/>
+    <Sprite id="17" time="0"/>
+    <Sprite id="18" time="0"/>
+    <Sprite id="19" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="8" timeDefault="100">
+    <Sprite id="20" time="0"/>
+    <Sprite id="22" time="0"/>
+    <Sprite id="21" time="0"/>
+    <Sprite id="23" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="9" timeDefault="100">
+    <Sprite id="12" time="0"/>
+    <Sprite id="13" time="0"/>
+    <Sprite id="14" time="0"/>
+    <Sprite id="15" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="10" timeDefault="1000">
+    <Sprite id="20" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="100" timeDefault="100">
+    <Sprite id="1024" time="0"/>
+    <Sprite id="1040" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="101" timeDefault="100">
+    <Sprite id="1041" time="0"/>
+    <Sprite id="1042" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="102" timeDefault="200">
+    <Sprite id="1032" time="0"/>
+    <Sprite id="1033" time="0"/>
+    <Sprite id="1032" time="0"/>
+    <Sprite id="1021" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="103" timeDefault="100">
+    <Sprite id="1022" time="0"/>
+    <Sprite id="1023" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="104" timeDefault="100">
+    <Sprite id="1014" time="0"/>
+    <Sprite id="1015" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="105" timeDefault="500">
+    <Sprite id="1014" time="0"/>
+    <Sprite id="1000" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="106" timeDefault="100">
+    <Sprite id="1027" time="0"/>
+    <Sprite id="1028" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="107" timeDefault="100">
+    <Sprite id="1029" time="0"/>
+    <Sprite id="1030" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="108" timeDefault="1000">
+    <Sprite id="1031" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1000" timeDefault="1000">
+    <Sprite id="40" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1001" timeDefault="1000">
+    <Sprite id="39" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1002" timeDefault="1000">
+    <Sprite id="32" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1003" timeDefault="1000">
+    <Sprite id="35" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1004" timeDefault="1000">
+    <Sprite id="37" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1005" timeDefault="1000">
+    <Sprite id="38" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1006" timeDefault="1000">
+    <Sprite id="28" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1007" timeDefault="1000">
+    <Sprite id="41" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1008" timeDefault="100">
+    <Sprite id="61" time="0"/>
+    <Sprite id="67" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="1009" timeDefault="100">
+    <Sprite id="31" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="2000" timeDefault="1000">
+    <Sprite id="1097" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="2001" timeDefault="1000">
+    <Sprite id="1095" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="3000" timeDefault="100">
+    <Sprite id="27" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="3001" timeDefault="50">
+    <Sprite id="44" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="3002" timeDefault="50">
+    <Sprite id="42" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="4000" timeDefault="1000">
+    <Sprite id="1002" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="4001" timeDefault="1000">
+    <Sprite id="1039" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="4002" timeDefault="1000">
+    <Sprite id="1105" time="0"/>
+  </SubAnimation>
+  <SubAnimation id="5000" timeDefault="100">
+    <Sprite id="43" time="0"/>
+    <Sprite id="26" time="0"/>
+  </SubAnimation>
+</Animations>

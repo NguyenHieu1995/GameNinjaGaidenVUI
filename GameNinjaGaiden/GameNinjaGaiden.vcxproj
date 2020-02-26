@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{DC1985BF-6339-446E-97D7-073997DDB15B}</ProjectGuid>
+    <RootNamespace>GameNinjaGaiden</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;winmm.lib;dsound.lib;dxerr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CBonusRed.cpp" />
+    <ClCompile Include="CAnimations.cpp" />
+    <ClCompile Include="CBonusBlue.cpp" />
+    <ClCompile Include="CBulletBoss.cpp" />
+    <ClCompile Include="CBulletMachineGunGuy.cpp" />
+    <ClCompile Include="CCamera.cpp" />
+    <ClCompile Include="CCollision.cpp" />
+    <ClCompile Include="CDartsRed.cpp" />
+    <ClCompile Include="CDartsSmall.cpp" />
+    <ClCompile Include="CDebug.cpp" />
+    <ClCompile Include="CDirectX.cpp" />
+    <ClCompile Include="CFire.cpp" />
+    <ClCompile Include="CFireBullet.cpp" />
+    <ClCompile Include="CFireWheel.cpp" />
+    <ClCompile Include="CFunction.h" />
+    <ClCompile Include="CGame.cpp" />
+    <ClCompile Include="CGameBase.cpp" />
+    <ClCompile Include="CGameNinjaGaiden.cpp" />
+    <ClCompile Include="CGameObject.cpp" />
+    <ClCompile Include="CGameObjectBanshee.cpp" />
+    <ClCompile Include="CGameObjectBatBrown.cpp" />
+    <ClCompile Include="CGameObjectBirdBrown.cpp" />
+    <ClCompile Include="CGameObjectBoss.cpp" />
+    <ClCompile Include="CGameObjectCat.cpp" />
+    <ClCompile Include="CGameObjectGround.cpp" />
+    <ClCompile Include="CGameObjectRyu.cpp" />
+    <ClCompile Include="CGameObjects.cpp" />
+    <ClCompile Include="CGameObjectSwordMan.cpp" />
+    <ClCompile Include="CGameObjectMachineGunGuy.cpp" />
+    <ClCompile Include="CGameObjectWall.cpp" />
+    <ClCompile Include="CGameObjectWater.cpp" />
+    <ClCompile Include="CGameSound.cpp" />
+    <ClCompile Include="CGridMap.cpp" />
+    <ClCompile Include="CInput.cpp" />
+    <ClCompile Include="CItemContainer4.cpp" />
+    <ClCompile Include="CKnifeBanshee.cpp" />
+    <ClCompile Include="CMain.cpp" />
+    <ClCompile Include="CMap.cpp" />
+    <ClCompile Include="CRestorePhysicalStrength.cpp" />
+    <ClCompile Include="CSampleKeyHandler.cpp" />
+    <ClCompile Include="CSpiritualStrengthBlue.cpp" />
+    <ClCompile Include="CSpiritualStrengthRed.cpp" />
+    <ClCompile Include="CSprites.cpp" />
+    <ClCompile Include="CStateEnd.cpp" />
+    <ClCompile Include="CStateFirst.cpp" />
+    <ClCompile Include="CStateIntro.cpp" />
+    <ClCompile Include="CStateMenu.cpp" />
+    <ClCompile Include="CStates.cpp" />
+    <ClCompile Include="CStateThird.cpp" />
+    <ClCompile Include="CSword.cpp" />
+    <ClCompile Include="CTextures.cpp" />
+    <ClCompile Include="CThrowingStar.cpp" />
+    <ClCompile Include="CTime.cpp" />
+    <ClCompile Include="CTimeFreeze.cpp" />
+    <ClCompile Include="CWindow.cpp" />
+    <ClCompile Include="dsutil.cpp" />
+    <ClCompile Include="dxutil.cpp" />
+    <ClCompile Include="Tiny\tinystr.cpp" />
+    <ClCompile Include="Tiny\tinyxml.cpp" />
+    <ClCompile Include="Tiny\tinyxmlerror.cpp" />
+    <ClCompile Include="Tiny\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBonusRed.h" />
+    <ClInclude Include="CAnimations.h" />
+    <ClInclude Include="CBonusBlue.h" />
+    <ClInclude Include="CBulletBoss.h" />
+    <ClInclude Include="CBulletMachineGunGuy.h" />
+    <ClInclude Include="CCamera.h" />
+    <ClInclude Include="CCollision.h" />
+    <ClInclude Include="CConstant.h" />
+    <ClInclude Include="CDartsRed.h" />
+    <ClInclude Include="CDartsSmall.h" />
+    <ClInclude Include="CDebug.h" />
+    <ClInclude Include="CDirectX.h" />
+    <ClInclude Include="CEnumsOfGame.h" />
+    <ClInclude Include="CFire.h" />
+    <ClInclude Include="CFireBullet.h" />
+    <ClInclude Include="CFireWheel.h" />
+    <ClInclude Include="CGame.h" />
+    <ClInclude Include="CGameBase.h" />
+    <ClInclude Include="CGameNinjaGaiden.h" />
+    <ClInclude Include="CGameObject.h" />
+    <ClInclude Include="CGameObjectBanshee.h" />
+    <ClInclude Include="CGameObjectBatBrown.h" />
+    <ClInclude Include="CGameObjectBirdBrown.h" />
+    <ClInclude Include="CGameObjectBoss.h" />
+    <ClInclude Include="CGameObjectCat.h" />
+    <ClInclude Include="CGameObjectGround.h" />
+    <ClInclude Include="CGameObjectRyu.h" />
+    <ClInclude Include="CGameObjects.h" />
+    <ClInclude Include="CGameObjectSwordMan.h" />
+    <ClInclude Include="CGameObjectMachineGunGuy.h" />
+    <ClInclude Include="CGameObjectWall.h" />
+    <ClInclude Include="CGameObjectWater.h" />
+    <ClInclude Include="CGameSound.h" />
+    <ClInclude Include="CGridMap.h" />
+    <ClInclude Include="CInput.h" />
+    <ClInclude Include="CItemContainer4.h" />
+    <ClInclude Include="CKeyboardEventHandler.h" />
+    <ClInclude Include="CKnifeBanshee.h" />
+    <ClInclude Include="CMap.h" />
+    <ClInclude Include="CRestorePhysicalStrength.h" />
+    <ClInclude Include="CSampleKeyHandler.h" />
+    <ClInclude Include="CSpiritualStrengthBlue.h" />
+    <ClInclude Include="CSpiritualStrengthRed.h" />
+    <ClInclude Include="CSprites.h" />
+    <ClInclude Include="CStateEnd.h" />
+    <ClInclude Include="CStateFirst.h" />
+    <ClInclude Include="CStateIntro.h" />
+    <ClInclude Include="CStateMenu.h" />
+    <ClInclude Include="CStates.h" />
+    <ClInclude Include="CStateObject.h" />
+    <ClInclude Include="CStateThird.h" />
+    <ClInclude Include="CStruct.h" />
+    <ClInclude Include="CSword.h" />
+    <ClInclude Include="CThrowingStar.h" />
+    <ClInclude Include="CTime.h" />
+    <ClInclude Include="CTimeFreeze.h" />
+    <ClInclude Include="CWindow.h" />
+    <ClInclude Include="CTextures.h" />
+    <ClInclude Include="dsutil.h" />
+    <ClInclude Include="dxutil.h" />
+    <ClInclude Include="Tiny\tinystr.h" />
+    <ClInclude Include="Tiny\tinyxml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="XML\animations.xml" />
+    <Xml Include="XML\listobject.xml" />
+    <Xml Include="XML\listobjecttest.xml" />
+    <Xml Include="XML\listobjectthird.xml" />
+    <Xml Include="XML\map.xml" />
+    <Xml Include="XML\sound.xml" />
+    <Xml Include="XML\sprites.xml" />
+    <Xml Include="XML\sprites_backup.xml" />
+    <Xml Include="XML\sprites_ryu_hayabusa.xml" />
+    <Xml Include="XML\test.xml" />
+    <Xml Include="XML\textures.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
